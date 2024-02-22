@@ -7,45 +7,46 @@
     <title>Food Website</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
 
-    <section id="Home">
-        <nav>
-            <div class="logo">
+    <section class=" mb-24 w-full h-screen">
+        <nav class="flex justify-around items-center fixed right-0 left-0 bg-white box-shadow: 0 0 10px shadow-[0_0_10px_rgba(0,0,0,0.5)] z-[1000] ">
+            <div class="w-[100px] cursor-pointer mx-0 my-[7px] list-style: none">
                 <img src="image/logo.png">
             </div>
 
-            <ul>
+            <ul class="inline-block mx-[15px] my-0 no-underline text-black font-medium text-[17px] transition-[0.1s]">
                 <li><a href="#Home">Home</a></li>
                 <li><a href="#About">About</a></li>
                 <li><a href="#Menu">Menu</a></li>
-                <li><a href="#Gallary">Gallary</a></li>
+                <li><a href="#Gallary">Gallery</a></li>
                 <li><a href="#Review">Review</a></li>
                 <li><a href="#Order">Order</a></li>
             </ul>
 
-            <div class="icon">
-                <i class="fa-solid fa-magnifying-glass"></i>
-                <i class="fa-solid fa-heart"></i>
-                <i class="fa-solid fa-cart-shopping"></i>
+            <div>
+                <i class="fa-solid fa-magnifying-glass text-lg text-black cursor-pointer transition-[0.3s] mx-[5px] my-0"></i>
+                <i class="fa-solid fa-heart text-lg text-black cursor-pointer transition-[0.3s] mx-[5px] my-0"></i>
+                <i class="fa-solid fa-cart-shopping text-lg text-black cursor-pointer transition-[0.3s] mx-[5px] my-0"></i>
             </div>
-
         </nav>
 
-        <div class="main">
+        <div class="main flex items-center justify-around relative top-[130px]">
 
             <div class="men_text">
                 <h1>Get Fresh<span>AnyalFood</span><br>in a Easy Way</h1>
             </div>
 
-            <div class="main_image">
+            <div class="w-[700px] relative left-[70px];
+            ">
                 <img src="image/main_img.png">
             </div>
 
         </div>
 
-        <p>
+        <p class="w-[550px] pl-12 font-light text-justify relative leading-[22px] bottom-[120px]">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse reiciendis quaerat nobis 
             deleniti amet non inventore. Reprehenderit recusandae voluptatibus minus tenetur itaque numquam 
             cum quos dolorem maxime. Quas, quaerat nisi. Lorem ipsum dolor sit, amet consectetur adipisicing 
@@ -59,8 +60,6 @@
         </div>
 
     </section>
-
-
 
     <!--About-->
 
